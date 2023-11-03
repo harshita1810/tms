@@ -1,0 +1,48 @@
+
+.wrap{
+    max-height: 54.25vh;
+    display: flex;
+    overflow-x: auto;
+    padding-top: 5vh;
+    padding-bottom: 0;
+    height: 45.59vh;
+    background-color: #198754;
+    background-image: url('https://cdn.vectorstock.com/i/preview-1x/23/65/green-gradient-abstract-polygon-background-vector-7712365.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+
+  }
+  
+  .wrap::-webkit-scrollbar{
+    width: 0;
+  }
+  
+  .wrap .it{
+    min-width: 210px;
+    height: 210px;
+    /* line-height: 210px; */
+    text-align: center;
+    /* background-color: #B5CB99; */
+    margin-right: 1vw;
+    margin-left: 2vw;
+    border-radius: 50px;
+    color: #fff;
+    /* border: 5px solid #198754; */
+    background-color: rgba(0, 0 ,0, 0.5);
+
+  }
+
+  
+.image1{
+    border-radius: 100px;
+    margin-top: 2vh;
+  }
+
+
+  .it:hover{
+    transition: 0.4s;
+    transform: scale(1.07);
+    background-color: rgba(0, 0 ,0, 0.65);
+  }
+
+  

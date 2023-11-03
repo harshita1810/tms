@@ -1,0 +1,36 @@
+.teacher{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    height: 80vh;
+    width: 32vw;
+    background: rgba(0, 0, 0, 0.45);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(1.5px);
+    border-radius: 15px;
+    letter-spacing: 0.2rem;
+    /* display: none; */
+    margin-top: 5vh;
+}
+
+.outerdivisionn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 30px; */
+    background-image: url('https://t3.ftcdn.net/jpg/05/18/53/74/360_F_518537484_wddS5sP48xCiaYOvIAKrvd1ETe0vlgwl.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.addbutton{
+    padding: 6px 16px 6px 16px;
+    border: none;
+    background-color: aqua;
+    border-radius: 8px;
+}
+
+.addbutton:hover{
+    background-color: rgb(10, 151, 151);
+}

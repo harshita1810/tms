@@ -1,0 +1,17 @@
+.mainna{
+    text-align: right;
+}
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .Dropdown .dropdown-item.active {
+    background-color: transparent !important;
+  }
+
+  .dropdown-item{
+    text-decoration: none;
+  }
